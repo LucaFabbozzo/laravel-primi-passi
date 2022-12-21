@@ -13,6 +13,13 @@
 <body>
     <div class="container">
         <h1>Our Team</h1>
+        @foreach ($team as $member)
+            <div class="box">
+                <h3>{{$member['name']}}</h3>
+                <h4>{{$member['surname']}}</h4>
+                <h5>{{$member['email']}}</h5>
+            </div>
+        @endforeach
         <a href="/">Home</a>
     </div>
 </body>

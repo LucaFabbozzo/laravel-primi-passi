@@ -16,9 +16,9 @@
         <h1>{{$hello}}</h1>
         <nav>
             <ul>
+                <li><a href="/our-team">Our Team</a></li>
                 <li><a href="/about">About</a></li>
                 <li><a href="/bio">Bio</a></li>
-                <li><a href="/our-team">Our Team</a></li>
                 <li><a href="/documentation">Documentation</a></li>
             </ul>
         </nav>

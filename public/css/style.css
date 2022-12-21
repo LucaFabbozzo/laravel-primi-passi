@@ -14,6 +14,8 @@ h1 {
     color: #FF2C20;
     text-transform: uppercase;
     padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
 }
 
 
@@ -40,3 +42,15 @@ img {
     max-width: 1200px;
     margin: 30px auto;
 }
+
+.box {
+    width: 30%;
+    background-color: #FF2C20;
+    border: 1px solid #252424;
+    margin: 0 auto;
+    padding: 15px 25px;
+    text-align: start;
+    color: #f5efef;
+    margin-bottom: 20px;
+}
+

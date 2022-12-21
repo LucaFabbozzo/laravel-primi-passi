@@ -34,8 +34,31 @@ Route::get('/bio', function() {
 
 Route::get('/our-team', function () {
 
-    
-    return view('our-team');
+    $team = [
+        [
+            'name' => 'Luca',
+            'surname' => 'Fabbozzo',
+            'email' => 'luca@gmail.com'
+        ],
+        [
+            'name' => 'Michele',
+            'surname' => 'De rosa',
+            'email' => 'michele@gmail.com'
+        ],
+        [
+            'name' => 'Ugo',
+            'surname' => 'De Ughi',
+            'email' => 'ugo@gmail.com'
+        ],
+        [
+            'name' => 'Fabrizio',
+            'surname' => 'Rossi',
+            'email' => 'rossi@gmail.com'
+        ],
+
+    ];
+
+    return view('our-team', compact('team'));
 });
 
 Route::get('/documentation', function () {

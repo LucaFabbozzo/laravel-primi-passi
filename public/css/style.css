@@ -35,6 +35,10 @@ img {
     width: 200px;
 }
 
+img.small {
+    width: 100px;
+}
+
 
 .container {
     text-align: center;

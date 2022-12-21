@@ -12,6 +12,7 @@
 </head>
 <body>
     <div class="container">
+         <img class="small" src="{{asset('img/laravel_logo.png')}}" alt="">
         <h1>Our Team</h1>
         @foreach ($team as $member)
             <div class="box">

@@ -18,14 +18,27 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function() {
 
-    $hello = 'Ciao Laravel';
+    $hello = 'Hello Laravel';
 
     return view('home', compact('hello'));
 });
 
 Route::get('/about', function() {
-
-    $bio = 'Mia biografia';
-
-    return view('about', compact('bio'));
+    return view('about');
 });
+
+
+Route::get('/bio', function() {
+    return view('bio');
+});
+
+Route::get('/our-team', function () {
+
+    
+    return view('our-team');
+});
+
+Route::get('/documentation', function () {
+    return view('documentation');
+});
+

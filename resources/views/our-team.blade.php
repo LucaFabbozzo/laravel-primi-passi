@@ -8,22 +8,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
-    <title>laravel-primi-passi</title>
+    <title>Our Team</title>
 </head>
 <body>
     <div class="container">
-        <img src="{{asset('img/laravel_logo.png')}}" alt="">
-        <h1>{{$hello}}</h1>
-        <nav>
-            <ul>
-                <li><a href="/about">About</a></li>
-                <li><a href="/bio">Bio</a></li>
-                <li><a href="/our-team">Our Team</a></li>
-                <li><a href="/documentation">Documentation</a></li>
-            </ul>
-        </nav>
-        {{-- <h1>{{$hello}}</h1>
-        <a href="/about">Bio</a> --}}
+        <h1>Our Team</h1>
+        <a href="/">Home</a>
     </div>
 </body>
 </html>

@@ -8,7 +8,6 @@
     <title>laravel-primi-passi</title>
 </head>
 <body>
-    <h1>{{$hello}}</h1>
-    <a href="/about">Bio</a>
+    <h1>About</h1>
 </body>
 </html>

@@ -24,7 +24,10 @@ Route::get('/', function() {
 });
 
 Route::get('/about', function() {
-    return view('about');
+
+    $print_paragraph = false;
+
+    return view('about', compact('print_paragraph'));
 });
 
 

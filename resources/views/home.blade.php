@@ -16,14 +16,11 @@
         <h1>{{$hello}}</h1>
         <nav>
             <ul>
-                <li><a href="/our-team">Our Team</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/bio">Bio</a></li>
-                <li><a href="/documentation">Documentation</a></li>
+                @foreach ($routes as $route)
+                 <li><a href="/{{$route['name']}}">{{$route['text']}}</a></li>
+                @endforeach
             </ul>
         </nav>
-        {{-- <h1>{{$hello}}</h1>
-        <a href="/about">Bio</a> --}}
     </div>
 </body>
 </html>

@@ -20,7 +20,9 @@ Route::get('/', function() {
 
     $hello = 'Hello Laravel';
 
-    return view('home', compact('hello'));
+    $routes = config('db.routes_list');
+
+    return view('home', compact('hello', 'routes'));
 });
 
 Route::get('/about', function() {
@@ -68,3 +70,7 @@ Route::get('/documentation', function () {
     return view('documentation');
 });
 
+
+Route::get('/contact', function() {
+    return view('contact');
+});
